@@ -1,0 +1,12 @@
+.button_input_left {
+    @apply bg-gray-300 text-gray-600 hover:text-gray-700 hover:bg-gray-400 active:bg-gray-500 w-20 h-full rounded-l cursor-pointer outline-none;
+}
+.button_input_right {
+    @apply bg-gray-300 text-gray-600 hover:text-gray-700 hover:bg-gray-400 active:bg-gray-500 w-20 h-full rounded-r cursor-pointer outline-none;
+}
+.damage_input {
+    @apply outline-none focus:outline-none text-center w-full bg-gray-200 font-semibold hover:text-black focus:text-black text-gray-700;
+}
+.button_text {
+    @apply text-2xl font-light
+}
